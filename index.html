@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <title>Simple Dapp</title>
+</head>
+
+<body>
+  MY DAPP
+  <div id="mm-detected"></div>
+  <button id="mm-connect">Connect to MetaMask</button>
+
+  <div id="mm-current-account"></div>
+
+  <div style="margin-top: 20px;">
+    <input type="number" id="ss-input-box" placeholder="provide input" />
+    <button id="ss-input-button">Submit Value</button>
+  </div>
+  <div style="margin-top: 20px;">
+    <div>
+      <button id="ss-get-value">Get Simple Storage Value</button>
+      <span>Current Simple Storage Value:</span>
+      <span id="ss-display-value"></span>
+    </div>
+  </div>
+
+  <script src="./dapp.js"></script>
+</body>
+
+</html>
